@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextGen Diamond Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #f0f6fc;
+      padding: 20px;
+    }
+    h1 {
+      color: #58a6ff;
+    }
+    .pack {
+      margin-bottom: 20px;
+    }
+    .form-section, .contact {
+      margin-top: 30px;
+      padding: 15px;
+      background: #161b22;
+      border-radius: 10px;
+    }
+    input, select, button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background-color: #238636;
+      color: white;
+      font-weight: bold;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <h1>NextGen Diamond Store 💎</h1>
+
+  <h2>🔥 Small Packs</h2>
+  <div class="pack">
+    <p>5💎 = ₹12</p>
+    <p>11💎 = ₹18</p>
+    <p>14💎 = ₹28</p>
+    <p>22💎 = ₹35</p>
+    <p>42💎 = ₹70</p>
+    <p>56💎 = ₹75</p>
+  </div>
+
+  <h2>🚀 Large Packs</h2>
+  <div class="pack">
+    <p>86💎 = ₹105</p>
+    <p>172💎 = ₹200</p>
+    <p>257💎 = ₹350</p>
+    <p>706💎 = ₹800</p>
+    <p>2195💎 = ₹2420</p>
+    <p>3688💎 = ₹4000</p>
+    <p>5532💎 = ₹6000</p>
+    <p>9288💎 = ₹9900</p>
+  </div>
+
+  <h2>🎁 Weekly Pass</h2>
+  <p>1x = ₹125</p>
+  <p>3x = ₹370</p>
+
+  <div class="form-section">
+    <h2>📝 Order Form</h2>
+    <form action="https://wa.me/91983461320" method="get" target="_blank">
+      <label for="ign">In-Game Name:</label>
+      <input type="text" id="ign" name="ign" required>
+
+      <label for="id">Game ID:</label>
+      <input type="text" id="id" name="id" required>
+
+      <label for="server">Server:</label>
+      <input type="text" id="server" name="server" required>
+
+      <label for="pack">Choose Pack:</label>
+      <select id="pack" name="pack" required>
+        <option value="5💎">5💎 = ₹12</option>
+        <option value="11💎">11💎 = ₹18</option>
+        <option value="14💎">14💎 = ₹28</option>
+        <option value="22💎">22💎 = ₹35</option>
+        <option value="42💎">42💎 = ₹70</option>
+        <option value="56💎">56💎 = ₹75</option>
+        <option value="86💎">86💎 = ₹105</option>
+        <option value="172💎">172💎 = ₹200</option>
+        <option value="257💎">257💎 = ₹350</option>
+        <option value="706💎">706💎 = ₹800</option>
+        <option value="2195💎">2195💎 = ₹2420</option>
+        <option value="3688💎">3688💎 = ₹4000</option>
+        <option value="5532💎">5532💎 = ₹6000</option>
+        <option value="9288💎">9288💎 = ₹9900</option>
+        <option value="1x Weekly Pass">Weekly Pass = ₹125</option>
+        <option value="3x Weekly Pass">3x Weekly Pass = ₹370</option>
+      </select>
+
+      <button type="submit">📲 Place Order via WhatsApp</button>
+    </form>
+    <p class="note">⏱ Small pack delivery: 1-2 min<br>⏱ Large pack: 5 min approx</p>
+  </div>
+
+  <div class="contact">
+    <h3>💳 Payment Options</h3>
+    <p>GPay / Paytm / PhonePe / FamApp</p>
+
+    <h3>📞 Contact for more packs</h3>
+    <p>📱 983461320</p>
+    <p>📱 8837312540</p>
+  </div>
+</body>
+</html>
